@@ -1,0 +1,22 @@
+{
+  "name": "tdd-in",
+  "version": "1.0.0",
+  "description": "## Why To practice TDD development with vanilla JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest --globals" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gvnwltrs/tdd-in-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gvnwltrs/tdd-in-js/issues"
+  },
+  "homepage": "https://github.com/gvnwltrs/tdd-in-js#readme",
+  "dependencies": {
+    "vitest": "^0.28.4"
+  }
+}
