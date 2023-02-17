@@ -4,7 +4,8 @@
   "description": "## Why To practice TDD development with vanilla JS.",
   "main": "index.js",
   "scripts": {
-    "test": "vitest --globals" 
+    "test": "vitest --globals", 
+    "test:watch": "vitest"
   },
   "repository": {
     "type": "git",

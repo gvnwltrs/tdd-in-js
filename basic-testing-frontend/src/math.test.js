@@ -3,7 +3,16 @@ import { it,expect } from 'vitest';
 import { add } from './math';
 
 it('should summarize all number values in an array', () => {
-  const result = add([1,2,3]); 
-  expect(result).toBe(6); 
+  // arrange  
+  const numbers = [1,2,3];
+
+  // act 
+  const result = add(numbers); 
+
+  // assert 
+  const expectedResult = numbers.reduce(
+    (prevValue, currentValue) => prevValue + currentValue, 0 
+  );
+  expect(result).toBe(expectedResult); 
 });
 
