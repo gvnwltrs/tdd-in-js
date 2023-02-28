@@ -67,3 +67,8 @@ it('should throw an error if provided with multiple arguments instead of an arra
   expect(resultfn).toThrow(/is not iterable/);
 
 });
+
+
+
+
+
